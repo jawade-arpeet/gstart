@@ -1,0 +1,25 @@
+{
+    "server": {
+        "port": 8080,
+        "run_env": "dev"
+    },
+    "client": {
+        "postgres": {
+            "host": "localhost",
+            "port": 5432,
+            "username": "username",
+            "password": "password",
+            "db_name": "gstart-db"
+        },
+        "redis": {
+            "host": "localhost",
+            "port": 6379,
+            "username": "",
+            "password": "password",
+            "db_name": "0"
+        },
+        "resend": {
+            "api_key": "re_xxxxxxxxx"
+        }
+    }
+}
